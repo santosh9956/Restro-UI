@@ -1,0 +1,762 @@
+@media (max-width:1160px) {
+    .Read_more_btn {
+        width: 12vw;
+        background-color: #FE765E;
+        color: white;
+    }    
+}
+
+
+
+
+@media(max-width:900px){
+
+
+    .hover-effect-things{
+        display: none;
+        visibility: hidden;
+    }
+
+    .custom_bestest_menu_image:hover div.hover-effect-things{
+        visibility: hidden;
+        opacity: 0;
+    }
+
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .section-2{
+        height: 50vh;
+    }
+    
+    .Custom_brand {
+        width: 14vw;
+        height: 4.5vh;
+    }
+
+    .brand-address{
+        width: 100vw;
+    }
+
+    .custom_address .map {
+        width: 4vw;
+        height: 1.8vh;
+        padding-left: 1rem;
+    }
+
+    .address_name {
+        font-family: 'SFPro-light';
+        font-size: 1.6vw;
+    }
+
+    .link-color {
+        padding-left: 0;
+        font-size: 1.5vw;
+    }
+
+    .Best-resturant h2{
+        position: absolute;
+        top: 20%;
+    }
+
+    .search{
+        position: absolute;
+        bottom: 30%;
+    }
+
+/* ----------------------speciality ------------------------------------  */
+
+.Speciality {
+    /* padding: 0; */
+    height: 45vh;
+}
+
+/* ------------------------ section -4th -----------------------------------------  */
+    .top_title_order{
+        font-size: 2vw;
+    }
+
+    .text_Speciality{
+        font-size: 3.60vw;
+    }
+
+    .Best_menu_heading {
+        font-size: 3.60vw;
+    }
+
+    .menu_food_images{
+        width: 90%;
+    }
+
+    .food-image {
+        margin: 0;
+        width: 20.46vw;
+        object-fit: cover;
+    }
+
+    .custom_btn {
+        width: 15vw;
+        height: 5.4vh;
+    }
+
+    .about_us_images img, .custom_content_about_us {
+        width: 50vw;
+        height: 74.5vh;
+        /* border: 2px solid black; */
+    }
+
+    .about_us_images img{
+        object-fit: cover;
+    }
+
+    .about_us_section {
+        padding-left: 10vw;
+        padding-top: 10vh;
+        position: relative;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .about_us_content {
+        position: absolute;
+        height: 57.4vh;
+        width: 45vw;
+        right: 25%;
+        padding: 5vh 2rem;
+    }
+
+    .about_us_content h3 {
+        font-size: 2.05vw;
+    }
+
+    .about_us_content h1{
+        font-size: 3.05vw;
+    }
+
+    .about_us_content p {
+        font-size: 1.5vw;
+    }
+
+    .Read_more_btn {
+        width: 15vw;
+    }
+
+    /* ------------------------today special ----------------------------   */
+    .add_cart_btn {
+        width: 10vw;
+        font-size: 1.2vw;
+        margin-top: -1rem;
+    }
+
+    .special-image{
+        object-fit: cover;
+    }
+
+    .special-rate{
+        margin-left: 1rem;
+    }
+
+    .Special_recipe h3 {
+        font-size: 2vw;
+    }
+
+    .custom_blog_content h3 {
+        font-size: 1.8vw;
+    }
+
+    .custom_blog_content p {
+        font-size: 1.2vw;
+    }
+
+    .main-course {
+        font-size: 1.2vw;
+    }
+
+    .read-more-content span {
+        font-size: 1.8vw;
+        margin-left: 2rem;
+    }
+
+    /* /....................................... our blogs --------------------------------  */
+
+    .images-blog img{
+        object-fit: cover;
+
+    }
+
+
+
+
+}
+
+
+
+
+/* --------------------------------------- media query for  under - 600px----------------  */
+
+@media (max-width:600px) {
+
+
+    .hover-effect-things{
+        display: none;
+    }
+
+
+/* ----------------------------------------Header----------------------------------- */
+
+    .Custom_brand {
+        width: 22vw;
+    }
+
+    .address_name {
+        font-size: 3.2vw;
+        margin-right: 10px;
+    }
+
+    .custom_address .map {
+        width: 8vw;
+        height: 2.2vh;
+    }
+
+    .custom_nav{
+        display: none;
+        width: 30vw;
+        height:auto;
+        position: absolute;
+        top: 10%;
+        right: 10%;
+        background-color: white;
+        /* border: 2px solid red; */
+    }
+
+
+    .contact-search-section img{
+        width: 3vw;
+        display: none;
+    }
+
+    .mobile-nav-icon img{
+        width: 6vw;
+        height: 4vh;
+        position: absolute;
+        right: 2%;
+        bottom: 25%;
+    }
+
+    .mobile-nav-icon{
+        display:block;
+    }
+
+    .custom-border{
+        padding-left: 0;
+        margin-bottom: 10px;
+        font-size: 5vw;
+    }
+
+    .custom-border.active::after{
+        position: absolute;
+        content: " ";
+        bottom:0;
+        width: 50%;
+        left: 25%;
+        background-color: #FE765E;
+    }
+
+/* --------------------Section-2 --------------------------- */
+.section-2 {
+    height: 35vh;
+    padding: 0;
+}
+
+.Best-resturant h2 {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.Best-resturant h2 {
+    font-size: 4.69vw;
+    width: 25.32vw;
+    height: 32vh;
+}
+
+.search {
+    width: 80vw;
+    /* border: 2px solid red; */
+    position: absolute;
+    bottom: 20vh;
+    left: 10%;
+    padding: 0;
+    
+}
+
+ .search input{
+    font-size:3vw;
+    width: 35vw;
+ }   
+
+.search button{
+    width: 20vw;
+    font-size: 2.8vw;
+    padding: 0;
+}
+
+/* --------------------------- Speciality-------------------------------------------  */
+
+.Speciality{
+    height:auto;
+    padding-top: 2rem;
+    padding-bottom: 0;
+}
+
+/* ----------------------------------Text contain ----------------------------  */
+.text_Speciality{
+font-size: 4.5vw;
+}
+
+.quality_food{
+    font-size: 3.5vw;
+}
+
+.food_description {
+    /* border: 2px solid red;   */
+    width: 60vw;
+    height: 25vh;
+    font-size: 3.2vw;
+}
+
+.Our_speciality{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.custom_col{
+    width: 100vw;
+    padding: 0;
+}
+
+.Speciality-icons img {
+    width: 12vw;
+    height: 7.6vh;
+}
+
+
+.special-rate{
+    margin-left:0 ;
+}
+
+/* --------------------------------- Menu-Section -----------------------------------  */
+
+.menu_section {
+    height: auto;
+    /* border: 2px solid red; */
+    padding-top:2vh;
+}
+
+.top_title_order {
+    font-size: 3.8vw;
+}
+
+.Best_menu_heading {
+    font-size: 4.5vw;
+}
+
+.bestest_menu_items {
+    /* border: 2px solid black; */
+    margin-bottom: 10px;
+    width: 90vw;
+    height: 6vh;
+    border-bottom:none;
+}
+
+.custom-border_bestest_menu{
+    font-size: 4vw;
+}
+
+
+.Custom_image_container{
+    flex-direction: column;
+    padding-top: 0 !important;
+
+}
+
+.Custom_image_container div{
+/* border: 2px solid black; */
+margin-bottom: 10px;
+}
+
+.food-image {
+    margin: 0;
+    width: 100vw;
+    height: 40vh;
+}
+
+.custom_btn {
+    width: 28vw;
+    height: 5.4vh;
+}
+
+.about_us_images img, .custom_content_about_us {
+    width: 70vw;
+    height: 40vh;
+    /* border: 2px solid black; */
+}
+
+.about_us_section {
+    padding-left:1rem;
+    padding-top: 5rem;
+    height: 60vh;
+}
+
+.about_us_content {
+    height: 35vh;
+    width: 50vw;
+    right: 20%;
+    padding: 5vh 2rem;
+}
+
+.Read_more_btn {
+    width: 20vw;
+    font-size: 2.04vw;
+}
+
+
+/* --------------------- About Us ------------------------------  */
+
+.today_special{
+    height: 260vh;
+    /* border: 2px solid red; */
+
+}
+
+.today_special_images{
+    height: auto;
+    flex-direction: column;
+    padding: 0 0 !important;
+
+}
+
+.special-image {
+    /* border: 2px solid red; */
+    width: 90vw;
+    height: 35vh;
+    padding-right:2rem;
+}
+
+.today_special_images .image-content{
+    /* border: 2px solid black; */
+    width: 90vw;
+    height: 50vh;
+    /* margin: 10px 4vh; */
+}
+
+.image-content h3{
+    font-size: 3vw;
+    padding-left: 0 !important;
+}
+
+.main-course {
+    font-size: 5vw;
+    margin-top: 0;
+    padding-left: 0;
+    margin-left: 0 !important;
+}
+
+.square-image {
+    width: 3vw;
+    height: 1.6vh;
+}
+
+.star {
+    margin-top:0rem;
+    margin-left:0;
+}
+
+.star img{
+    width: 3vw;
+}
+
+.one-two{
+    font-size:4vw;
+}
+
+.one-eight{
+    font-size:2vw;
+}
+
+.cart{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+}
+
+.rate{
+    margin-left: -2rem;
+}
+
+.special-rate span{
+    font-size: 5vw;
+}
+
+.rate-cart{
+    width: 80vw;
+    justify-content: space-between !important;
+    padding-left:2rem;
+    padding-right: 1rem;
+}
+
+.add_cart_btn {
+    width: 25vw;
+    /* margin-top: 1rem; */
+    /* height: 4vh; */
+    font-size: 1.5vw;
+}
+
+
+/* -------------------------------- Our Blogs ----------------------------------------  */
+
+.custom_blog_section{
+    /* border: 2px solid black; */
+    width: 100vw;
+    height: auto;
+    padding:0 2rem;
+
+}
+
+.custom_image_blog{
+    flex-direction: column;
+    padding: 0 0 !important;
+}
+
+
+.images-blog img {
+    width: 90vw;
+    height: 50vh;
+    margin-bottom: 10px;
+    padding-right:1rem;
+    border-radius: 5px;
+}
+
+.custom_blog_section h2{
+    font-size: 4vw;
+}
+
+.custom_blog_content{
+    width: 90vw;
+    height: 70vh;
+    padding:0;
+    /* border: 2px solid black; */
+}
+
+.custom_wrap{
+    flex-direction: column-reverse;
+    padding: 0 0;
+}
+.custom_blog_content h3{
+    font-size: 3vw;
+}
+
+.custom_blog_content h2{
+    font-size: 5vw;
+}
+
+.custom_blog_content p{
+    font-size: 4vw;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+.blog-text-content{
+    font-size: 3vw;
+    width: 90vw !important;
+}
+
+.blog-section-2nd{
+    justify-content: left !important;
+}
+
+.view_all_button{
+    margin-top: 1.5rem !important;
+}
+
+.add_cart_btn{
+    width: 20vw;
+    font-size: 2.5vw;
+}
+
+
+
+/* ------------------------------------ Special receipe ----------------------   */
+.Special_recipe{
+    /* border: 2px solid black; */
+    height: 320vh;
+    padding-bottom:10rem;
+}
+
+
+
+.today_special_images .image-content {
+    /* border: 2px solid black; */
+    width: 90vw;
+    height: 50vh;
+    
+}
+
+.image-content{
+    margin: 10px 10px;
+}
+
+.today_special_Recipe{
+    flex-direction: column;
+    padding: 0 0;
+}
+
+.today_special_Recipe div{
+    height: 10vh;
+}
+
+.image-special-content .main-course{
+    padding-left: 30px;
+}
+
+
+.image-special-content img{
+    width: 90vw;
+    margin:0 1rem;
+    /* border: 2px solid red; */
+}
+
+.special-recipes-images h3{
+    font-size:5vw;
+}
+
+.special-recipes-images p{
+    font-size:3vw;
+}
+
+
+
+.image-special-content {
+    padding: 0;
+    width: 100vw;
+    /* border: 2px solid red; */
+}
+
+.image-special-content p{
+    padding-right: 1rem;
+}
+
+.special-recipes-images {
+    width: 27.40vw;
+    margin-left: 2rem;
+}
+
+.Special_recipe h3 {
+    font-size: 5vw;
+}
+
+.read-more-content span{
+    font-size: 5vw;
+    margin-left: 4rem;
+}
+
+.rate span img{
+    width: 8vw;
+    height: 2vh;
+}
+
+
+
+
+
+/* -------------------footer Section -------------------------------  */
+
+.footer-section{
+    display: none !important;
+}
+
+.box-content{
+    padding: 0;
+    height: 2.5vh;
+}
+
+.box-content i{
+    font-size: 3.5vw;
+}
+
+.box-content p{
+    font-size: 5vw;
+    padding-left: 10px;
+}
+
+
+.custom_box{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+}
+
+.custom_box_content {
+    flex-direction: column;
+    width: 90vw;
+    height: 20vh;
+    background-color: #FE765E;
+   
+    /* border: 2px solid red; */
+}
+
+.copyright p{
+    font-size:4vw;
+}
+
+.search-bar-content{
+    width: 80vw;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid black; */
+}
+
+.search-bar-content input {
+    height: 6.4vh;
+    width: 50vw;
+    padding-left: 10px;
+    font-size: 3vw;
+}
+
+.search-bar-content img{
+    width: 10vw;
+    height: 6.4vh;
+}
+
+
+}
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
